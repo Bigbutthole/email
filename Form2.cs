@@ -129,5 +129,10 @@ namespace 开机发送邮件
             }
             keypass.Close();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
